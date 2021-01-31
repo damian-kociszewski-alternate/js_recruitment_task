@@ -3,6 +3,7 @@
   background-color: #f4f5f6;
   padding: 20px;
   box-shadow: 3px 0 6px 0 #c9ced5;
+  margin-bottom: 20px;
 }
 
 .appHeader-inner {
@@ -21,28 +22,19 @@
   margin: 0;
 }
 
-.filtersContainer {
-  padding-top: 80px;
-}
-
-.newsContainer {
-  padding-top: 80px;
-}
-
 .newsColumnTitle {
   border-bottom: 1px solid;
   max-width: 240px;
   padding-bottom: 5px;
 }
 
-.newsList {
+.newsList,
+.readLaterList {
   list-style: none;
-  margin-top: 40px;
 }
 
 .news {
   border: 1px solid rgba(88, 88, 88, 0.41);
-  max-width: 400px;
   padding: 20px;
   border-radius: 6px;
   box-shadow: -1px 1px 1px 1px rgba(0, 0, 0, 0.2);
